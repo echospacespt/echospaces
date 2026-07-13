@@ -1,0 +1,20 @@
+
+#Ativar venv
+.venv\Scripts\activate
+
+
+#Start the server:
+uvicorn app.main:app --reload
+
+#Test the server
+http://127.0.0.1:8000/health
+
+#Swagger
+http://localhost:8000/docs
+
+#Supabase project password
+EchoSpacesSupabase
+
+
+#Guardar todos packages em requirements
+pip freeze > requirements.txt
