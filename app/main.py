@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from app.core.supabase import supabase
 
 import os
+import yt_dlp
 
 app = FastAPI()
 
